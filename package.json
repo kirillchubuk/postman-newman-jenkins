@@ -1,0 +1,12 @@
+{
+  "name": "postman-newman-jenkins",
+  "version": "1.0.0",
+  "description": "project for storing postman tests",
+  "scripts": {
+    "api-test-stage": "newman run tests/fortestingCollection.json -e tests/testEnviroment.json"
+  },
+  "author": "Kirill Chubuk",
+  "dependencies": {
+    "newman": "^4.1.0"
+  }
+}
